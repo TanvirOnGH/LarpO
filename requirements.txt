@@ -1,0 +1,4 @@
+setuptools==68.2.2
+pytz==2023.3.post1
+requests==2.31.0
+nextcord==2.6.0

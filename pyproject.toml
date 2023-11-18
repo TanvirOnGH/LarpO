@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "larpo"
+version = "0.3.0"
+description = "A Discord bot powered by Ollama"
+authors = ["Tanvir <tanvir.ahmed.tonoy@skiff.com>"]
+license = "GPLv3"
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+setuptools = "^68.2.2"
+pytz = "^2023.3.post1"
+requests2 = "^2.16.0"
+nextcord = "^2.6.0"
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^68.2.2"
+pytz = "^2023.3.post1"
+requests2 = "^2.16.0"
+nextcord = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
